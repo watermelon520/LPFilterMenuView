@@ -13,11 +13,12 @@
 		9FC59BB21CE48097009D2097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC59BB01CE48097009D2097 /* Main.storyboard */; };
 		9FC59BB41CE48097009D2097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC59BB31CE48097009D2097 /* Assets.xcassets */; };
 		9FC59BB71CE48097009D2097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC59BB51CE48097009D2097 /* LaunchScreen.storyboard */; };
-		9FC59BCA1CE480AB009D2097 /* LPFilterMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59BC11CE480AB009D2097 /* LPFilterMenuItem.m */; };
-		9FC59BCB1CE480AB009D2097 /* LPFilterMenuNormalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59BC31CE480AB009D2097 /* LPFilterMenuNormalItem.m */; };
-		9FC59BCC1CE480AB009D2097 /* LPFilterMenuRepeatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59BC51CE480AB009D2097 /* LPFilterMenuRepeatItem.m */; };
-		9FC59BCD1CE480AB009D2097 /* LPFilterMenuSpecialItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59BC71CE480AB009D2097 /* LPFilterMenuSpecialItem.m */; };
 		9FC59BCE1CE480AB009D2097 /* LPFilterMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59BC91CE480AB009D2097 /* LPFilterMenuView.m */; };
+		9FC59BD91CE482C7009D2097 /* LPFilterMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59BD11CE482C7009D2097 /* LPFilterMenuItem.m */; };
+		9FC59BDA1CE482C7009D2097 /* LPFilterMenuNormalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59BD41CE482C7009D2097 /* LPFilterMenuNormalItem.m */; };
+		9FC59BDB1CE482C7009D2097 /* LPFilterMenuRepeatItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59BD61CE482C7009D2097 /* LPFilterMenuRepeatItem.m */; };
+		9FC59BDC1CE482C7009D2097 /* LPFilterMenuSpecialItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59BD81CE482C7009D2097 /* LPFilterMenuSpecialItem.m */; };
+		9FC59BDF1CE48387009D2097 /* UIView+LPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC59BDE1CE48387009D2097 /* UIView+LPExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,16 +33,18 @@
 		9FC59BB61CE48097009D2097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC59BB81CE48097009D2097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FC59BBF1CE480AB009D2097 /* LPFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFilter.h; sourceTree = "<group>"; };
-		9FC59BC01CE480AB009D2097 /* LPFilterMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFilterMenuItem.h; sourceTree = "<group>"; };
-		9FC59BC11CE480AB009D2097 /* LPFilterMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFilterMenuItem.m; sourceTree = "<group>"; };
-		9FC59BC21CE480AB009D2097 /* LPFilterMenuNormalItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFilterMenuNormalItem.h; sourceTree = "<group>"; };
-		9FC59BC31CE480AB009D2097 /* LPFilterMenuNormalItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFilterMenuNormalItem.m; sourceTree = "<group>"; };
-		9FC59BC41CE480AB009D2097 /* LPFilterMenuRepeatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFilterMenuRepeatItem.h; sourceTree = "<group>"; };
-		9FC59BC51CE480AB009D2097 /* LPFilterMenuRepeatItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFilterMenuRepeatItem.m; sourceTree = "<group>"; };
-		9FC59BC61CE480AB009D2097 /* LPFilterMenuSpecialItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFilterMenuSpecialItem.h; sourceTree = "<group>"; };
-		9FC59BC71CE480AB009D2097 /* LPFilterMenuSpecialItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFilterMenuSpecialItem.m; sourceTree = "<group>"; };
 		9FC59BC81CE480AB009D2097 /* LPFilterMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFilterMenuView.h; sourceTree = "<group>"; };
 		9FC59BC91CE480AB009D2097 /* LPFilterMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFilterMenuView.m; sourceTree = "<group>"; };
+		9FC59BD01CE482C7009D2097 /* LPFilterMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFilterMenuItem.h; sourceTree = "<group>"; };
+		9FC59BD11CE482C7009D2097 /* LPFilterMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFilterMenuItem.m; sourceTree = "<group>"; };
+		9FC59BD31CE482C7009D2097 /* LPFilterMenuNormalItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFilterMenuNormalItem.h; sourceTree = "<group>"; };
+		9FC59BD41CE482C7009D2097 /* LPFilterMenuNormalItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFilterMenuNormalItem.m; sourceTree = "<group>"; };
+		9FC59BD51CE482C7009D2097 /* LPFilterMenuRepeatItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFilterMenuRepeatItem.h; sourceTree = "<group>"; };
+		9FC59BD61CE482C7009D2097 /* LPFilterMenuRepeatItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFilterMenuRepeatItem.m; sourceTree = "<group>"; };
+		9FC59BD71CE482C7009D2097 /* LPFilterMenuSpecialItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFilterMenuSpecialItem.h; sourceTree = "<group>"; };
+		9FC59BD81CE482C7009D2097 /* LPFilterMenuSpecialItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFilterMenuSpecialItem.m; sourceTree = "<group>"; };
+		9FC59BDD1CE48387009D2097 /* UIView+LPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LPExtension.h"; sourceTree = "<group>"; };
+		9FC59BDE1CE48387009D2097 /* UIView+LPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LPExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,19 +102,37 @@
 		9FC59BBE1CE480AB009D2097 /* LPFilterMenuView */ = {
 			isa = PBXGroup;
 			children = (
+				9FC59BCF1CE482C7009D2097 /* Base */,
+				9FC59BD21CE482C7009D2097 /* Custom */,
 				9FC59BBF1CE480AB009D2097 /* LPFilter.h */,
-				9FC59BC01CE480AB009D2097 /* LPFilterMenuItem.h */,
-				9FC59BC11CE480AB009D2097 /* LPFilterMenuItem.m */,
-				9FC59BC21CE480AB009D2097 /* LPFilterMenuNormalItem.h */,
-				9FC59BC31CE480AB009D2097 /* LPFilterMenuNormalItem.m */,
-				9FC59BC41CE480AB009D2097 /* LPFilterMenuRepeatItem.h */,
-				9FC59BC51CE480AB009D2097 /* LPFilterMenuRepeatItem.m */,
-				9FC59BC61CE480AB009D2097 /* LPFilterMenuSpecialItem.h */,
-				9FC59BC71CE480AB009D2097 /* LPFilterMenuSpecialItem.m */,
 				9FC59BC81CE480AB009D2097 /* LPFilterMenuView.h */,
 				9FC59BC91CE480AB009D2097 /* LPFilterMenuView.m */,
+				9FC59BDD1CE48387009D2097 /* UIView+LPExtension.h */,
+				9FC59BDE1CE48387009D2097 /* UIView+LPExtension.m */,
 			);
 			path = LPFilterMenuView;
+			sourceTree = "<group>";
+		};
+		9FC59BCF1CE482C7009D2097 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9FC59BD01CE482C7009D2097 /* LPFilterMenuItem.h */,
+				9FC59BD11CE482C7009D2097 /* LPFilterMenuItem.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9FC59BD21CE482C7009D2097 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				9FC59BD31CE482C7009D2097 /* LPFilterMenuNormalItem.h */,
+				9FC59BD41CE482C7009D2097 /* LPFilterMenuNormalItem.m */,
+				9FC59BD51CE482C7009D2097 /* LPFilterMenuRepeatItem.h */,
+				9FC59BD61CE482C7009D2097 /* LPFilterMenuRepeatItem.m */,
+				9FC59BD71CE482C7009D2097 /* LPFilterMenuSpecialItem.h */,
+				9FC59BD81CE482C7009D2097 /* LPFilterMenuSpecialItem.m */,
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,14 +205,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FC59BCD1CE480AB009D2097 /* LPFilterMenuSpecialItem.m in Sources */,
+				9FC59BDB1CE482C7009D2097 /* LPFilterMenuRepeatItem.m in Sources */,
 				9FC59BAF1CE48097009D2097 /* ViewController.m in Sources */,
 				9FC59BAC1CE48097009D2097 /* AppDelegate.m in Sources */,
+				9FC59BDC1CE482C7009D2097 /* LPFilterMenuSpecialItem.m in Sources */,
 				9FC59BA91CE48097009D2097 /* main.m in Sources */,
-				9FC59BCA1CE480AB009D2097 /* LPFilterMenuItem.m in Sources */,
-				9FC59BCC1CE480AB009D2097 /* LPFilterMenuRepeatItem.m in Sources */,
-				9FC59BCB1CE480AB009D2097 /* LPFilterMenuNormalItem.m in Sources */,
+				9FC59BDF1CE48387009D2097 /* UIView+LPExtension.m in Sources */,
 				9FC59BCE1CE480AB009D2097 /* LPFilterMenuView.m in Sources */,
+				9FC59BDA1CE482C7009D2097 /* LPFilterMenuNormalItem.m in Sources */,
+				9FC59BD91CE482C7009D2097 /* LPFilterMenuItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -304,6 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LPFilterMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.watermelon-lp.LPFilterMenuView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -315,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LPFilterMenuView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.watermelon-lp.LPFilterMenuView";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,7 +8,7 @@
 
 #import "LPFilterMenuView.h"
 
-#import "UIView+Frame.h"
+#import "UIView+LPExtension.h"
 #import "LPFilterMenuItem.h"
 #import "LPFilterMenuNormalItem.h"
 #import "LPFilterMenuSpecialItem.h"
@@ -48,12 +48,12 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    CGFloat width = self.hlm_width / self.lp_menuItems.count;
+    CGFloat width = self.lp_width / self.lp_menuItems.count;
     
     for (int i = 0; i < self.lp_menuItems.count; i++) {
         
         LPFilterMenuItem *item = self.lp_menuItems[i];
-        item.frame = CGRectMake(width * i, 0, width, self.hlm_height);
+        item.frame = CGRectMake(width * i, 0, width, self.lp_height);
         
     }
     

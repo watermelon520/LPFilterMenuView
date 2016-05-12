@@ -8,7 +8,7 @@
 
 #import "LPFilterMenuItem.h"
 
-#import "UIView+Frame.h"
+#import "UIView+LPExtension.h"
 #import "LPFilterMenuNormalItem.h"
 #import "LPFilterMenuSpecialItem.h"
 #import "LPFilterMenuRepeatItem.h"
@@ -29,8 +29,8 @@
 }
 
 - (void)setUpInit {
-    [self setTitleColor:RGBA(102, 102, 102, 1) forState:UIControlStateNormal];
-    [self setTitleColor:themeColor forState:UIControlStateSelected];
+    [self setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self setTitleColor:[UIColor redColor] forState:UIControlStateSelected];
     self.titleLabel.font = [UIFont systemFontOfSize:14];
 }
 
@@ -39,9 +39,9 @@
     
     if (!self.imageView.image) return;
     
-    CGFloat margin = (self.hlm_width - self.titleLabel.hlm_width - self.imageView.hlm_width) * 0.5;
-    self.titleLabel.hlm_x = margin;
-    self.imageView.hlm_x = self.titleLabel.hlm_right + 5;
+    CGFloat margin = (self.lp_width - self.titleLabel.lp_width - self.imageView.lp_width) * 0.5;
+    self.titleLabel.lp_x = margin;
+    self.imageView.lp_x = self.titleLabel.lp_right + 5;
     
 }
 
