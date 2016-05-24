@@ -1,5 +1,7 @@
 # LPFilterMenuView
-一个简易的 筛选 工具条，适用于列表页顶部的筛选功能。
+一个简易的 筛选 工具条，适用于列表页顶部的筛选排序功能。
+
+![](未命名.gif)
 
 
 LPFilterMenuItem 筛选按钮基类
@@ -54,10 +56,10 @@ LPFilterMenuItem 筛选按钮基类
 
 这个类很特殊，因为适用于筛选按钮，请在外界手动调整按钮的选中状态。
 
-//切换选中状态
-`- (void)selectedState;`
-//切换正常状态
-`- (void)normalState;`
+
+``//切换选中状态 - (void)selectedState;``
+
+``//切换正常状态 - (void)normalState;``
  
 注意 ： 这两个方法只针对特殊按钮有用。
 
