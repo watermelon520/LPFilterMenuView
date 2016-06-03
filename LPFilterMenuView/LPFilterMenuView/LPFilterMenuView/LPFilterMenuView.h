@@ -24,6 +24,9 @@
 @property (nonatomic, strong) NSArray <LPFilterMenuItem *> *lp_menuItems;
 @property (nonatomic, assign) id <LPFilterMenuViewDelegate> delegate;
 
+@property (nonatomic, assign, getter=isShowSeparateView) BOOL showSeparateView;//是否显示底部分割线，高度为1
+@property (nonatomic, strong) UIColor *separateViewColor;//底部分割线颜色
+
 @end
 
 

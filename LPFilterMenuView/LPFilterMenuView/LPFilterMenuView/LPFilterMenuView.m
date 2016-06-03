@@ -18,6 +18,7 @@
 @interface LPFilterMenuView ()
 
 @property (nonatomic, weak) UIButton *selectedItem;
+@property (nonatomic, weak) UIView *separateView;
 
 @end
 
@@ -25,9 +26,21 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.firstClickIndex = 0;
+        [self setUpInit];
     }
     return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super initWithCoder:aDecoder]) {
+        [self setUpInit];
+    }
+    return self;
+}
+
+- (void)setUpInit {
+    self.firstClickIndex = 0;
+    self.separateViewColor = [UIColor grayColor];
 }
 
 - (void)setLp_menuItems:(NSArray<LPFilterMenuItem *> *)lp_menuItems {
@@ -54,6 +67,13 @@
         
         LPFilterMenuItem *item = self.lp_menuItems[i];
         item.frame = CGRectMake(width * i, 0, width, self.lp_height);
+        
+    }
+    
+    if (self.lp_menuItems.count && self.isShowSeparateView) {
+        self.separateView.hidden = NO;
+        self.separateView.backgroundColor = self.separateViewColor;
+        self.separateView.frame = CGRectMake(0, self.lp_height - 1, self.lp_width, 1);
         
     }
     
@@ -116,6 +136,18 @@
         
     }
     
+}
+
+#pragma mark - getter & setter
+
+- (UIView *)separateView {
+    if (!_separateView) {
+        UIView *separateView = [[UIView alloc] init];
+        _separateView = separateView;
+        [self addSubview:separateView];
+        separateView.hidden = YES;
+    }
+    return _separateView;
 }
 
 @end
